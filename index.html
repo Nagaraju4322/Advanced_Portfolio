@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raju's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <header class="header">
+        <a href="#" class="logo">Raju's Portfolio<span class="dot">.</span></a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#services">Services</a>
+            <a href="#tools">Tools</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="header-right">
+            <button id="theme-toggle" aria-label="Toggle Theme">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello 👋, It's Me</h3>
+            <h1>Nagaraju Vadde</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I build interactive websites that run across platforms & devices. Passionate about creating intuitive, dynamic user experiences.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/vadde.nagaraju.10048"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://github.com/Nagaraju4322/Nagaraju4322"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/mr_introvert_nag/?hl=en"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/vadde-nagaraju-47ba23321/"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <a href="Vadde_Nagaraju_Resume (1).pdf" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <div class="glowing-circle">
+                <span></span>
+                <span></span>
+                <div class="image">
+                    <img src="Raju.jpg" alt="Profile Picture">
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section class="about" id="about">
+    <h2 class="heading">About <span>Me</span></h2>
+
+    <div class="about-wrapper">
+        <div class="about-img">
+            <img src="Raju.jpg" alt="About Me">
+        </div>
+
+        <div class="about-content">
+            <h3>Full Stack Developer!</h3>
+            <span>I'm a passionate web developer with a knack for creating robust and innovative solutions. With a strong foundation in modern web technologies and a keen eye for design, I strive to build applications that not only function flawlessly but also provide an exceptional user experience. 
+                My approach combines the precision of an engineer with the creativity of an artist, ensuring that every project I undertake is both technically sound and visually appealing.</span><br><br>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </div>
+</section>
+<!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+                <p>Semantic markup, Accessibility</p>
+            </div>
+            <div class="skill-box">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+                <p>Flexbox, Grid, Animations</p>
+            </div>
+            <div class="skill-box">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>ES6+, DOM Manipulation</p>
+            </div>
+            <div class="skill-box">
+                <i class="fab fa-java"></i>
+                <h3>Java</h3>
+                <p>Core Java, OOPs Concepts</p>
+            </div>
+            <div class="skill-box">
+                <i class="fas fa-leaf"></i>
+                <h3>Spring</h3>
+                <p>Spring Boot, MVC, REST APIs</p>
+            </div>
+            <div class="skill-box">
+                <i class="fas fa-database"></i>
+                <h3>Hibernate</h3>
+                <p>ORM, Database Mapping</p>
+            </div>
+            <div class="skill-box">
+                <i class="fab fa-react"></i>
+                <h3>React</h3>
+                <p>Components, Hooks, Redux</p>
+            </div>
+            <div class="skill-box">
+                <i class="fas fa-database"></i>
+                <h3>MySQL</h3>
+                <p>SQL Queries, Database Design</p>
+            </div>
+        </div>
+    </section>
+<!-- Services Section -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="service-box">
+                <i class="fas fa-code"></i>
+                <h3>Responsive Web Development</h3>
+                <p>Building websites that look great on all devices.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="service-box">
+                <i class="fas fa-server"></i>
+                <h3>Backend & API</h3>
+                <p>Robust server-side logic and API integration.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="service-box">
+                <i class="fas fa-database"></i>
+                <h3>Database Management</h3>
+                <p>Efficient data storage and retrieval solutions.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="service-box">
+                <i class="fas fa-cloud-upload-alt"></i>
+                <h3>Deployment & Hosting</h3>
+                <p>Seamless deployment to cloud platforms.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+<!-- Tools Section -->
+    <section class="tools" id="tools">
+        <h2 class="heading">My <span>Tools</span></h2>
+        <div class="tools-container">
+            <div class="tool-box">
+                <i class="fab fa-github"></i>
+                <h3>GitHub</h3>
+                <p>Version Control & Collaboration</p>
+            </div>
+            <div class="tool-box">
+                <i class="fas fa-code"></i>
+                <h3>Visual Studio Code</h3>
+                <p>Code Editing & Extensions</p>
+            </div>
+            <div class="tool-box">
+                <i class="fas fa-moon"></i>
+                <h3>Eclipse</h3>
+                <p>Java Development IDE</p>
+            </div>
+        </div>
+    </section>
+<!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="project-box">
+                <img src="https://framerusercontent.com/images/BtSOiu1CJrIjCK2LCNTsFwBj0wg.jpeg" alt="E-commerce Platform">
+                <h3 class="project-title">E-commerce Platform</h3>
+                <div class="project-layer">
+                    <h4>E-commerce Platform</h4>
+                    <p>A full-featured online store with cart and payment.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="https://mir-s3-cdn-cf.behance.net/projects/808/974044222434179.Y3JvcCwxNjM2LDEyODAsMTM3LDA.jpg" alt="Portfolio Website">
+                <h3 class="project-title">Portfolio Website</h3>
+                <div class="project-layer">
+                    <h4>Portfolio Website</h4>
+                    <p>Advanced personal portfolio with animations.</p>
+                    <a href="https://nagaraju4322.github.io/My_Portfolio/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2024/7/438732933/TY/VO/DY/132813282/online-food-delivery-app-development-service.png" alt="Food Delivery App">
+                <h3 class="project-title">Food Delivery App</h3>
+                <div class="project-layer">
+                    <h4>Food Delivery App</h4>
+                    <p>Application for ordering and tracking food delivery.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="https://yt3.googleusercontent.com/ytc/AIdro_kSALhaUzd-dFBXXkk-nJx5q3riOTcTauW6o8e4fbLips8=s900-c-k-c0x00ffffff-no-rj" alt="Mini Project">
+                <h3 class="project-title">Mini Project</h3>
+                <div class="project-layer">
+                    <h4>Mini Project</h4>
+                    <p>Simple project using only HTML and CSS.</p>
+                    <a href="https://nagaraju4322.github.io/Mini-Project/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="https://images.unsplash.com/photo-1587145820266-a5951ee6f620?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Calculator">
+                <h3 class="project-title">Calculator</h3>
+                <div class="project-layer">
+                    <h4>Calculator</h4>
+                    <p>A functional calculator built with HTML, CSS, and JavaScript.</p>
+                    <a href="https://nagaraju4322.github.io/Calculator/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Movies Site">
+                <h3 class="project-title">Movies Site</h3>
+                <div class="project-layer">
+                    <h4>Movies Site</h4>
+                    <p>A movie listing site created using HTML and CSS.</p>
+                    <a href="https://nagaraju4322.github.io/Movies_Hunt/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#" id="contact-form">
+            <div class="input-box">
+                <input type="text" name="name" id="name" placeholder="Full Name" required>
+                <input type="email" name="email" id="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="number" name="phone" id="phone" placeholder="Mobile Number">
+                <input type="text" name="subject" id="subject" placeholder="Email Subject" required>
+            </div>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn" id="submit-btn" style="cursor: pointer;">
+            <p id="form-msg" style="display: none; margin-top: 15px; font-size: 1.6rem; font-weight: 600; text-align: center;"></p>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Nagaraju Vadde | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fas fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // Initialize EmailJS with your Public Key
+            emailjs.init("zuuiLFWqKSLpna6wY");
+        })();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
